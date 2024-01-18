@@ -60,8 +60,8 @@ public void booleanNumber()
 }
 public void charValue()
 {
-	char num7='A';
-	System.out.println("Character value="+num7);
+	char ch='A';
+	System.out.println("Character value="+ch);
 	System.out.println("Size of Character ="+(Character.SIZE/8));
 }
 }
