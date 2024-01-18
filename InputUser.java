@@ -12,16 +12,16 @@ public static void main(String args[])
 	System.out.println("Enter Second Number");
 	value2=sc.nextInt();
 	//Addition class object
-	Addition ob=new Addition();
-	ob.Add(value1,value2);
+	//Addition ob=new Addition();
+	Addition.Add(value1,value2);
 	//Substraction class object
-	Substraction ob1=new Substraction();
-	ob1.Sub(value1,value2);
+	//Substraction ob1=new Substraction();
+	Substraction.Sub(value1,value2);
 	//Multiplication class object
-	Multiplication ob2=new Multiplication();
-	ob2.mul(value1,value2);
-	Division ob3=new Division();
-	ob3.div(value1,value2);
+	//Multiplication ob2=new Multiplication();
+	Multiplication.mul(value1,value2);
+	//Division ob3=new Division();
+	Division.div(value1,value2);
 }
 
 
