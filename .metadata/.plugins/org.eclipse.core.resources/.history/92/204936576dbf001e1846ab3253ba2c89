@@ -1,0 +1,17 @@
+package ArrayBacicAssignment3;
+
+public class EmployeeArray {
+
+	public static void main(String[] args)
+	{
+		EmployeeArray ob=new EmployeeArray();
+		Employee ob1=new Employee();		
+		
+	}
+	Employee[] EmpArray()
+	{
+		//Employee arr[]=new Employee;
+		Employee[]emparr=new Employee();
+		
+	}
+}

@@ -1,0 +1,12 @@
+package ArrayBacicAssignment3;
+
+public class Employee {
+	//1] Write a program to Add Employee Class Object in Array, return it and print it.
+
+	int empId;// Variable Declaration
+	String empName;
+	Float Salary;
+	String empDept;
+	
+	
+}

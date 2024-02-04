@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;NonPrimitiveArrayImplementation&apos; to &apos;Core-Java/src&apos;&#x0D;&#x0A;- Original project: &apos;NonPrimitiveArrayImplementation&apos;&#x0D;&#x0A;- Destination element: &apos;Core-Java/src&apos;&#x0D;&#x0A;- Original element: &apos;NonPrimitiveArrayImplementation/src/NonPrimitiveArrayImplementation&apos;" description="Copy package" destination="=Core-Java/src" element1="/src&lt;NonPrimitiveArrayImplementation" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1706953070033" version="1.0"/>
+</session>

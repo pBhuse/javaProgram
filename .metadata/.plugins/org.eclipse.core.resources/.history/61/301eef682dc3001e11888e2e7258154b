@@ -1,0 +1,19 @@
+package arrayAdvanceAssignment6;
+
+public class SecondSmallestElementUsingForLoop 
+{
+public static void main(String[] args)
+{
+	int arr[]= {25,10,35,15,45};
+	SecondSmallestElementUsingForLoop obj=new SecondSmallestElementUsingForLoop();
+	obj.smallestElement(arr);
+}
+void smallestElement(int[]arr)
+{
+	System.out.println("Array Elements :");
+	for (int i : arr)
+	{
+		System.out.print("\t"+i);
+	}
+}
+}

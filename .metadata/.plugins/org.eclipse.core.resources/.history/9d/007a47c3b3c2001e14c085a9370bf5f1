@@ -1,0 +1,118 @@
+//package arrayAdvanceAssignment5;
+//
+import java.util.Iterator;
+//
+public class FrequencyOfArray 
+{
+public static void main(String[] args)
+{
+////	  System.out.println("W.A.P to count the frequency of each element in array.");
+////	  int arr[]= {2,2,3,4,3,4,2};
+////
+////	  FrequencyOfArray ob=new FrequencyOfArray();
+////	  ob.frequency(arr);
+////}
+////
+////
+////void frequency(int[]arr)
+////{
+////    int[] arr2 = new int[arr.length];
+////
+////    // Initialize all frequencies to -1
+////    for (int i = 0; i < arr.length; i++) {
+////		arr2[i] = -1;
+////    }
+////    for (int i = 0; i < arr.length; i++) {
+////        int count = 1;
+////        for (int j = i + 1; j < arr.length; j++) {
+////            if (arr[i] == arr[j]) {
+////                count++;
+////                // To avoid counting the same element again
+////                arr2[j] = 0;
+////            }
+////        }
+////        if (arr2[i] != 0) {
+////            arr2[i] = count;
+////        }
+////        System.out.println("Element frequencies:");
+////        for (int k = 0; k < arr.length; k++) {
+////            if (arr2[k] != 0) {
+////                System.out.println("Element " + arr[k] + ": " + arr2[k] + " times");
+////            }
+////        }
+////}
+////
+//	
+//	        int[] array ={2,2,3,4,3,4,2};
+//
+//	        // Creating an array to store the frequency of each element
+//	        int[] frequency = new int[array.length];
+//
+//	        // Initialize all frequencies to -1
+//	        for (int i = 0; i < array.length; i++) {
+//	            frequency[i] = -1;
+//	        }
+//
+//	        // Counting the frequency of each element using a nested loop
+//	        for (int i = 0; i < array.length; i++) {
+//	            int count = 1;
+//	            for (int j = i + 1; j < array.length; j++) {
+//	                if (array[i] == array[j]) {
+//	                    count++;
+//	                    // To avoid counting the same element again
+//	                    frequency[j] = 0;
+//	                }
+//	            }
+//	            // Store the frequency if not already counted
+//	            if (frequency[i] != 0) {
+//	                frequency[i] = count;
+//	            }
+//	        }
+//
+//	        // Displaying the results
+//	        System.out.println("Element frequencies:");
+//	        for (int i = 0; i < array.length; i++) {
+//	            if (frequency[i] != 0) {
+//	                System.out.println("Element " + array[i] + ": " + frequency[i] + " times");
+//	            }
+//	        }
+//	    }
+//	
+	
+	        int[] array = {1, 2, 3, 4, 1, 2, 3, 4, 5, 5, 5};
+
+	        // Creating an array to store the frequency of each element
+	        int[] frequency = new int[array.length];
+
+	        // Initialize frequencies to 0
+	        for (int i = 0; i < array.length; i++) {
+	            frequency[i] = 0;
+	        }
+
+	        // Counting the frequency of each element using a nested loop
+	        for (int i = 0; i < array.length; i++) {
+	            // If frequency is already counted, skip to the next iteration
+	            if (frequency[i] != 0) {
+	                continue;
+	            }
+
+	            int count = 1;
+	        }
+	            int i;
+				// Count occurrences of the current element in the rest of the array
+	            for (int j = i + 1; j < array.length; j++) {
+	                int count=1;
+					if (array[i] == array[j]) {
+	                    count++;
+	                    // Mark the element as counted to avoid counting it again
+	                    frequency[j] = 1;
+	                }
+	            
+
+	            // Display the frequency of the current element
+	            System.out.println("Element " + array[i] + ": " + count + " times");
+	        }
+	    
+
+}
+}

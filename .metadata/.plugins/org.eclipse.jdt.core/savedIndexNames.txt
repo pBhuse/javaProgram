@@ -1,0 +1,26 @@
+INDEX VERSION 1.134+C:\Users\A\Desktop\codeMindAcademy\Html\javaProgram\.metadata\.plugins\org.eclipse.jdt.core
+3339021562.index
+1047221999.index
+1440557109.index
+1531642682.index
+1497542586.index
+146188122.index
+3150622544.index
+1865797976.index
+1250271691.index
+1327268992.index
+3091470913.index
+2423208712.index
+3611349283.index
+3792143841.index
+2570513784.index
+977911904.index
+4179816317.index
+2312421256.index
+992633098.index
+3696178274.index
+1586771930.index
+1692280189.index
+733790089.index
+2539427634.index
+3824343624.index

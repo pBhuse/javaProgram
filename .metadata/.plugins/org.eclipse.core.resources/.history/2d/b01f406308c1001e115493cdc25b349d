@@ -1,0 +1,16 @@
+package Assignments_DataTypes_Scanner;
+
+public class AssignmentOfDatatypeAndScannerClass 
+{
+public static void main(String[] args)
+{
+	System.out.println("======================Step 1====================");
+	System.out.println("Q1.Add the correct data type for the following variables:");
+	int myNum=9;
+	float myFloatNum=8.99f;
+	char myLetter='A';
+	boolean myBool=false;
+	String myText="Hello World";
+}
+	
+}

@@ -1,0 +1,15 @@
+package NonPrimitiveArrayImplementation;
+
+public class AnotherStudent {
+	void PrintArray(Student []arr)
+	{
+		for(Student i:arr)
+		{
+		System.out.println("RollNo:-"+i.rollNo);
+		System.out.println("Name:-"+i.name);
+	}
+	}
+
+}
+
+

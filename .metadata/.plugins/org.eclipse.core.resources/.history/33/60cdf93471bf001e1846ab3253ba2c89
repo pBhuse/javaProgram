@@ -1,0 +1,9 @@
+package ArrayBacicAssignment3;
+
+public class EmployeeAnother {
+	Employee obj2=new Employee();
+	//obj2.empId();
+	
+
+
+}

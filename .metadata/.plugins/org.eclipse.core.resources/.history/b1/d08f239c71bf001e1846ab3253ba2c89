@@ -1,0 +1,17 @@
+package ArrayBacicAssignment3;
+
+public class EmployeeAnother {
+	Employee obj2=new Employee();
+	
+	void printArray(Employee[]arr)
+	{
+		System.out.println("Inside EmployeeAnother class ");
+		for (Employee employee : arr) {
+			
+			System.out.println(arr.toString());
+		}
+		
+	}
+
+
+}

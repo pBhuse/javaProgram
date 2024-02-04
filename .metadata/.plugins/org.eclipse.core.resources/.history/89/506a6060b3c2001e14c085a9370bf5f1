@@ -1,0 +1,48 @@
+//package arrayAdvanceAssignment5;
+//
+import java.util.Iterator;
+//
+public class FrequencyOfArray 
+{
+public static void main(String[] args)
+{
+ System.out.println("W.A.P to count the frequency of each element in array.");
+
+	
+	        int[] array ={2,2,3,4,3,4,2};
+
+	        // Creating an array to store the frequency of each element
+	        int[] frequency = new int[array.length];
+
+	        // Initialize all frequencies to -1
+	        for (int i = 0; i < array.length; i++) {
+	            frequency[i] = -1;
+	        }
+
+	        // Counting the frequency of each element using a nested loop
+	        for (int i = 0; i < array.length; i++) {
+	            int count = 1;
+	            for (int j = i + 1; j < array.length; j++) {
+	                if (array[i] == array[j]) {
+	                    count++;
+	                    // To avoid counting the same element again
+	                    frequency[j] = 0;
+	                }
+	            }
+	            // Store the frequency if not already counted
+	            if (frequency[i] != 0) {
+	                frequency[i] = count;
+	            }
+	        }
+
+	        // Displaying the results
+	        System.out.println("Element frequencies:");
+	        for (int i = 0; i < array.length; i++) {
+	            if (frequency[i] != 0) {
+	                System.out.println("Element " + array[i] + ": " + frequency[i] + " times");
+	            }
+	        }
+	    
+
+}
+}

@@ -1,0 +1,36 @@
+package arrayAdvanceAssignment5;
+
+import java.util.Iterator;
+
+public class FrequencyOfArray 
+{
+public static void main(String[] args)
+{
+	  System.out.println("W.A.P to count the frequency of each element in array.");
+	  int arr[]= {2,2,3,4,3,4,2};
+	  
+	  FrequencyOfArray ob=new FrequencyOfArray();
+	  ob.frequency(arr);
+}
+
+
+void frequency(int[]arr)
+{
+
+	for (int i = 0; i < arr.length; i++)
+    {
+        int count = 1;
+        while (arr[i] == arr[i + 1])
+        {
+           //i++;
+            count++;
+            System.out.println(arr[i] + ": " + count);
+
+	}
+      //  System.out.println(arr[i] + ": " + count);
+       // count++;
+    }
+
+}
+}
+
